@@ -35,14 +35,5 @@ maskify: (ntarjeta) =>{
 }
 
 
-  
 
 
-
-// export const validator (ntarjeta){
-  // return isValidCard(ntarjeta) 
-//  }
-
-
-
-//export default validator;
