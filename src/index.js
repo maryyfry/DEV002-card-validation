@@ -22,9 +22,4 @@ buttonVerify.addEventListener('click', () => {
   ntarjeta.value=validator.maskify(ntarjeta.value)
 })
 
-// function maskify() {
-//   const inputText = document.getElementById('ntarjeta');
-  
-//   inputText.setAttribute('number',inputText.value)
-// }
-// window.maskify=maskify;
+
