@@ -23,5 +23,7 @@ Esta aplicación web tiene como objetivos ayudar a todas las personas a que pued
 
 ## 4. Wireframes
 [![315321000-465908255679054-6596285379872426101-n.jpg](https://i.postimg.cc/YSYs5m9R/315321000-465908255679054-6596285379872426101-n.jpg)](https://postimg.cc/065nmj7K)
-## 4. Prototipo final
+## 5. Prototipo final
 [![ppf.png](https://i.postimg.cc/3RWDy2vC/ppf.png)](https://postimg.cc/G8wpV8zH)
+## 6. Test
+[![npm-test.png](https://i.postimg.cc/XYHFkV0g/npm-test.png)](https://postimg.cc/3kGdKQNy)
