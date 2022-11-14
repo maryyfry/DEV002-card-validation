@@ -1,14 +1,81 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!--Datos de la compra-->
+  <div class="container">
+    <h1>Confirma tu compra</h1>
+    <div class="first-row">
+      <div class="name">
+        <h3>Nombre</h3>
+        <div class="input-field">
+          <input type="text">
+        </div>
+      </div>
+      <div class="cvv">
+        <h3>CVV</h3>
+        <div class="input-field">
+          <input type="password" maxlength="3">
+        </div>
+      </div>
+    </div>
+    <div class="second-row">
+      <div class="card-number">
+        <h3>Número de tarjeta</h3>
+        <div class="input-field">
+          <input type="text" id="ntarjeta" maxlength="16" autocomplete="off">
+        </div>
+      </div>
+    </div>
+    <div class="third-row">
+      <h3>Mes y año de vencimiento</h3>
+      <div class="selection">
+        <div class="date">
+          <select name="months" id="months">
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+          <select name="years" id="years">
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+          </select>
+        </div>
+        <div class="cards">
+          <img src="image/mc.png" alt="">
+          <img src="image/vi.png" alt="">
+          <img src="image/pp.png" alt="">
+        </div>
+      </div>
+    </div>
+    <a href="#" id="validate">Validar tarjeta</a>
+  </div>
+
+  <footer></footer>
+  <script src="index.js" type="module"></script>
+  
+</body>
+
 </html>
